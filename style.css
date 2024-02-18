@@ -1,0 +1,85 @@
+
+body {
+
+    background-color: rgb(99, 99, 15);
+}
+
+h1 {
+
+    margin-top: 150px;
+    text-align: center;
+}
+
+.input {
+
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+}
+label {
+   
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+label input{
+
+    
+    margin: 10px;
+    text-align: center;
+    outline: none;
+}
+
+.input2 {
+    
+    margin-top: 20px;
+    margin-left: -180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+
+    width: 180px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+}
+
+
+#total {
+
+    text-align: center;
+}
+
+@media screen and (max-width: 412px) {
+    
+ 
+    
+.input2 {
+    
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+label {
+    margin-right: -160px;
+    display: flex;
+    flex-direction: column;
+}
+
+label input {
+
+    margin-bottom: 10px;
+}
+
+}
